@@ -8,6 +8,7 @@ body{
 
 img{
     width: 100%;
+    border-radius: 5px;
 }
 
 .hero-image{
@@ -37,5 +38,25 @@ img{
 }
 
 .info{
-    font-size: 1.25em;
+    font-size: 1.35em;
+    color: rgb(230, 176, 126);
+}
+
+.three-colum{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 90%;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: rgb(230, 176, 126);
+}
+
+.card-text{
+    text-align: center;
+    color:antiquewhite;
 }
